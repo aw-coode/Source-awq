@@ -1,7 +1,7 @@
 {
     "name": "Source awq",
     "description": "سورس فمبير لصنع بوتات حمايه بجميع المميزات❤️",
-    "repository": "https://github.com/VamBIR/v",
+    "repository": "https://github.com/aw-coode/Source-awq",
     "logo": "https://telegra.ph/file/b3499f8f3f78a379ded26.jpg",
     "keywords": [
     "python3",
@@ -13,7 +13,6 @@
     ],
     "website": "https://t.me/P_R_C1",
     "success_url": "https://t.me/P_R_C1",
-    "stack": "container",
     "env": {
         "Token": {
             "description": "ضع توكن بوتك  @BotFather",
@@ -22,9 +21,20 @@
         "idSudo": {
             "description": "حط ايدي مطور البوت",
             "required": true
-        }
-    }
-}
+            },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
 
 
 
