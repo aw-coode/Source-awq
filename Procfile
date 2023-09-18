@@ -1,1 +1,1 @@
-worker: python3 vambir
+worker: python3 Rose
