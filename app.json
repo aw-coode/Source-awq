@@ -1,5 +1,5 @@
 {
-    "name": "Source awq",
+    "name": "SOURCE VAMBIR",
     "description": "سورس فمبير لصنع بوتات حمايه بجميع المميزات❤️",
     "repository": "https://github.com/aw-coode/Source-awq",
     "logo": "https://telegra.ph/file/b3499f8f3f78a379ded26.jpg",
@@ -11,8 +11,9 @@
     "Source-awq",
     "pyrogram"
     ],
-    "website": "https://t.me/P_R_C1",
-    "success_url": "https://t.me/P_R_C1",
+    "website": "https://t.me/XxvprxX",
+    "success_url": "https://t.me/XxvprxX",
+    "stack": "container",
     "env": {
         "Token": {
             "description": "ضع توكن بوتك  @BotFather",
@@ -21,20 +22,9 @@
         "idSudo": {
             "description": "حط ايدي مطور البوت",
             "required": true
-            },
-    "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-          {
-              "url": "heroku/nodejs"
-          },
-          {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-          }
-      ],
-      "stack": "container"
-  }
+        }
+    }
+}
 
 
 
