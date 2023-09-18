@@ -13,7 +13,6 @@
     ],
     "website": "https://t.me/P_R_C1",
     "success_url": "https://t.me/P_R_C1",
-    "stack": "container",
     "env": {
         "Token": {
             "description": "ضع توكن بوتك  @BotFather",
@@ -22,9 +21,20 @@
         "idSudo": {
             "description": "حط ايدي مطور البوت",
             "required": true
-        }
-    }
-}
+            },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
 
 
 
