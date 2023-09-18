@@ -2,7 +2,7 @@ from os import getenv
 from dotenv import load_dotenv
 from os import environ
 
-
+load_dotenv("config.env")
 
 TOKEN = environ.get("TOKEN")
 API_ID = int(environ.get("API_ID","10729094"))
