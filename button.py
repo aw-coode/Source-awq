@@ -1,6 +1,0 @@
-kkk = "⨳ م1"
-kgb = "⨳ م2"
-kok = "⨳ م3"
-fff = "⨳ م4"
-fbf = "⨳ م5"
-Languages = "⨳ م6"
