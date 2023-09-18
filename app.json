@@ -1,5 +1,5 @@
 {
-    "name": "SOURCE VAMBIR",
+    "name": "Source awq",
     "description": "سورس فمبير لصنع بوتات حمايه بجميع المميزات❤️",
     "repository": "https://github.com/VamBIR/v",
     "logo": "https://telegra.ph/file/b3499f8f3f78a379ded26.jpg",
@@ -8,11 +8,11 @@
     "telegram",
     "bot",
     "mongodb",
-    "Group-Manager-bot",
+    "Source-awq",
     "pyrogram"
     ],
-    "website": "https://t.me/XxvprxX",
-    "success_url": "https://t.me/XxvprxX",
+    "website": "https://t.me/P_R_C1",
+    "success_url": "https://t.me/P_R_C1",
     "stack": "container",
     "env": {
         "Token": {
